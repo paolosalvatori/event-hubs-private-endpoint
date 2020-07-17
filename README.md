@@ -1,4 +1,4 @@
-# Connect to an Azure Event Hubs namespace using an Azure Private Endpoint #
+# Connect to an Event Hubs namespace using a Private Endpoint #
 
 ![Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/201-servicebus-private-endpoint/PublicLastTestDate.svg)
 ![Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/201-servicebus-private-endpoint/PublicDeployment.svg)
