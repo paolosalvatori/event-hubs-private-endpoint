@@ -195,14 +195,14 @@
     },
      "scriptFilePath": {
       "type": "string",
-      "defaultValue": "https://paolosalvatori.blob.core.windows.net/scripts",
+      "defaultValue": "https://raw.githubusercontent.com/paolosalvatori/event-hubs-private-endpoint/master/scripts",
       "metadata": {
         "description": "Specifies the relative path of the scripts used to initialize the virtual machine."
       }
     },
     "scriptFileName": {
       "type": "string",
-      "defaultValue": "servicebus_nslookup.sh",
+      "defaultValue": "eventhubs_nslookup.sh",
       "metadata": {
         "description": "Specifies the script to download from the URI specified by the scriptFilePath parameter."
       }
@@ -237,7 +237,7 @@
     },
     "eventHubsNamespacePrivateEndpointName": {
       "type": "string",
-      "defaultValue": "ServiceBusNamespacePrivateEndpoint",
+      "defaultValue": "EventHubsNamespacePrivateEndpoint",
       "metadata": {
         "description": "Specifies the name of the private link to the storage account."
       }

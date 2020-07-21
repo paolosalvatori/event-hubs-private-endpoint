@@ -54,10 +54,10 @@
       "value": "ReadWrite"
     },
     "scriptFilePath": {
-      "value": "https://paolosalvatori.blob.core.windows.net/scripts"
+      "value": "https://raw.githubusercontent.com/paolosalvatori/event-hubs-private-endpoint/master/scripts"
     },
     "scriptFileName": {
-      "value": "servicebus_nslookup.sh"
+      "value": "eventhubs_nslookup.sh"
     },
     "deployLogAnalytics": {
       "value": true

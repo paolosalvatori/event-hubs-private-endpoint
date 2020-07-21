@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Variables
-serviceBusNamespaceEndpoint=$1
+eventHubsNamespaceEndpoint=$1
 blobServicePrimaryEndpoint=$2
 
 # Parameters validation
-if [[ -z $serviceBusNamespaceEndpoint ]]; then
-    echo "serviceBusNamespaceEndpoint parameter cannot be null or empty"
+if [[ -z $eventHubsNamespaceEndpoint ]]; then
+    echo "eventHubsNamespaceEndpoint parameter cannot be null or empty"
     exit 1
 fi
 
@@ -26,7 +26,7 @@ sudo apt-get upgrade -y
 
 # Run nslookup to verify that public hostname of the Service Bus namespace
 # is properly mapped to the private address of the provate endpoint
-nslookup $serviceBusNamespaceEndpoint
+nslookup $eventHubsNamespaceEndpoint
 
 # Run nslookup to verify that public hostname of the Blob storage account 
 # is properly mapped to the private address of the provate endpoint
